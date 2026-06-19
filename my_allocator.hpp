@@ -41,7 +41,7 @@ public:
         return pData;
     }
 
-    void deallocate(T* pData, std::size_t n)
+    void deallocate([[maybe_unused]]T* pData, [[maybe_unused]]std::size_t n)
     {
     }
 
